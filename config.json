@@ -1,0 +1,35 @@
+{
+  "name": "7-Eleven Fuel Lock",
+  "version": "1.0.1",
+  "slug": "fuellock",
+  "description": "Run Freighter's 7-Eleven script",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "services",
+  "webui": "http://[HOST]:[PORT:8000]",
+  "boot": "auto",
+  "map": [
+    "config",
+    "ssl",
+    "addons",
+    "backup:rw",
+    "share"
+  ],
+  "options": {
+    "API_KEY": "",
+    "BASE_URL": "https://711-goodcall.api.tigerspike.com/api/v1/",
+    "PRICE_URL": "https://projectzerothree.info/api.php?format=json",
+    "DEVICE_NAME": "SM-G973FZKAXSA",
+    "OS_VERSION": "Android 9.0.0",
+    "APP_VERSION": "1.7.1.2012"
+  },
+  "schema": {},
+  "ports": {
+    "8000/tcp": 8055
+  }
+}
