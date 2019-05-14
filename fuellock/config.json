@@ -1,9 +1,8 @@
 {
   "name": "7-Eleven Fuel Lock",
   "version": "1.0.1",
-  "slug": "fuellock",
+  "slug": "fuel_lock",
   "description": "Run Freighter's 7-Eleven script",
-  "url": "https://github.com/envinur/hassio_repository",
   "arch": [
     "armhf",
     "armv7",
@@ -14,24 +13,30 @@
   "startup": "services",
   "webui": "http://[HOST]:[PORT:8000]",
   "boot": "auto",
+  "homeassistant_api": true,
   "map": [
     "config",
     "ssl",
     "addons",
-    "backup:rw",
-    "share"
   ],
   "options": {
-    "API_KEY": "",
+    "API_KEY": "AIzaSyB5T_GLHWQEKUzBqPkNfIVqn-KWGcpKjq0",
     "BASE_URL": "https://711-goodcall.api.tigerspike.com/api/v1/",
     "PRICE_URL": "https://projectzerothree.info/api.php?format=json",
     "DEVICE_NAME": "SM-G973FZKAXSA",
     "OS_VERSION": "Android 9.0.0",
     "APP_VERSION": "1.7.1.2012"
   },
-  "schema": {},
+  "schema": {
+    "API_KEY": "str",
+    "BASE_URL": "url",
+    "PRICE_URL": "url",
+    "DEVICE_NAME": "str",
+    "OS_VERSION": "str",
+    "APP_VERSION": "str"
+  },
   "ports": {
     "8000/tcp": 8055
-  },
-  "image": "envinur/{arch}-fuellock"
+  }
+  "image": "envinur/{arch}-googlebackup"
 }
