@@ -38,5 +38,5 @@
   "ports": {
     "8000/tcp": 8055
   },
-  "image": "envinur/{arch}-fuellock"
+  "image": "hub/{arch}-fuellock"
 }
