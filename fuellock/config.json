@@ -13,7 +13,6 @@
   "startup": "services",
   "webui": "http://[HOST]:[PORT:8000]",
   "boot": "auto",
-  "homeassistant_api": true,
   "map": [],
   "options": {
     "API_KEY": "AIzaSyB5T_GLHWQEKUzBqPkNfIVqn-KWGcpKjq0",
