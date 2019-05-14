@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "slug": "fuellock",
   "description": "Run Freighter's 7-Eleven script",
-  "url": "https://github.com/envinur/hassio_repository/edit/master/fuellock",
+  "url": "https://github.com/envinur/hassio_repository",
   "arch": [
     "armhf",
     "armv7",
