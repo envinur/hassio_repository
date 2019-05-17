@@ -15,7 +15,7 @@
   "boot": "auto",
   "map": [],
   "options": {
-    "API_KEY": "AIzaSyB5T_GLHWQEKUzBqPkNfIVqn-KWGcpKjq0",
+    "API_KEY": "",
     "BASE_URL": "https://711-goodcall.api.tigerspike.com/api/v1/",
     "PRICE_URL": "https://projectzerothree.info/api.php?format=json",
     "DEVICE_NAME": "SM-G973FZKAXSA",
