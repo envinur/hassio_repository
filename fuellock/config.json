@@ -1,7 +1,7 @@
 {
   "name": "7-Eleven Fuel Lock",
   "version": "1.0.1",
-  "slug": "fuellock",
+  "slug": "fuel_lock",
   "description": "Run Freighter's 7-Eleven script",
   "arch": [
     "armhf",
@@ -13,7 +13,12 @@
   "startup": "services",
   "webui": "http://[HOST]:[PORT:8000]",
   "boot": "auto",
-  "map": [],
+  "homeassistant_api": true,
+  "map": [
+    "config",
+    "ssl",
+    "addons",
+  ],
   "options": {
     "API_KEY": "",
     "BASE_URL": "https://711-goodcall.api.tigerspike.com/api/v1/",
@@ -32,6 +37,5 @@
   },
   "ports": {
     "8000/tcp": 8055
-  },
-  "image": "envinur/{arch}-fuellock"
+  }
 }
